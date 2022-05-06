@@ -1,0 +1,14 @@
+.skills-container {
+    display: flex;
+    justify-content: center;    
+}
+
+.bio {
+    margin: 2rem 5rem 2rem 5rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.quote {
+    margin: 2rem;
+}

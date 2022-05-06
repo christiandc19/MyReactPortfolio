@@ -1,0 +1,37 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;  
+}
+
+.bar-container {
+    height: 5px;
+    width: 130px;
+    margin-right: 10px;
+    position: relative;
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.primary-title h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bar-container .progress-bar-skills {
+    position: absolute;
+    height: 100%;
+    margin-right: 10px;
+    background-color: rgb(85, 182, 85);
+    border-radius: 7px;
+    -webkit-animation: progress-annimation 3s forwards;
+            animation: progress-annimation 3s forwards;
+}
+
+@keyframes progress-annimation {
+    from {width:0px;}
+  to {width:85px;}
+}
+

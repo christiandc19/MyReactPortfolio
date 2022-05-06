@@ -10,3 +10,9 @@
     height: 200px;
     width: 400px;
 }
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
