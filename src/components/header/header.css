@@ -10,6 +10,12 @@
     position: relative;
 }
 
+.logo {
+    width: 20rem;
+    position: relative;
+    left: calc(50% - 10rem);
+}
+
 /* ======================= CTA ========================= */
 
 .cta {
@@ -17,6 +23,16 @@
     display: flex;
     justify-content: center;
     gap: 1.2rem;
+}
+
+section > p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+section > h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 /* ================== HEADER SOCIALS ================== */
@@ -27,7 +43,7 @@
     align-items: center;
     position: absolute;
     gap: 0.8rem;
-    left: 0;
+    left: 5rem;
     bottom: 3rem;
 }
 
@@ -46,7 +62,6 @@ width: 22rem;
 height: 30rem;
 position: absolute;
 left: calc(50% - 11rem);
-margin-top: 4rem;
 border-radius: 12rem 12rem 0 0;
 overflow: hidden;
 padding: 5rem 1.5rem 1.5rem 1.5rem;

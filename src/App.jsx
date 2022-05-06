@@ -1,12 +1,14 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import NavContainer from "./components/NavContainer";
+import Footer from "./components/footer/Footer";
 
 
 
 const App = () => {
     return (
         <>
-        <PortfolioContainer />
+        <NavContainer />
+        <Footer />
         </>
     )
 }
