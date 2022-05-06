@@ -30,6 +30,7 @@
             animation: progress-annimation 3s forwards;
 }
 
+
 @keyframes progress-annimation {
     from {width:0px;}
   to {width:85px;}

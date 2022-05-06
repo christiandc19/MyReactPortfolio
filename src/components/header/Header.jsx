@@ -11,7 +11,7 @@ const Header = () => {
             <section className="container header__container">
                 <p>Hello I'm</p>
                 <div className="logo"><img src= {ChrisLogo} alt='logo'/></div>
-                <h5 className="text-light">| Full Stack Developer | Artist | </h5>
+                <h5 className="text-light">| Full Stack Developer  |  Artist  | </h5>
                 <CTA />
                 <HeaderSocials></HeaderSocials>
                 <div className="me">
