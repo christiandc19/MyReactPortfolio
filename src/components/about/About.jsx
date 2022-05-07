@@ -1,6 +1,8 @@
 import React from "react";
 import './about.css'
 import Skills from './Skills'
+import HTMLCSS from '../../assets/HTMLCSS.png'
+
 
 const About = () => {
     return (
@@ -17,13 +19,41 @@ const About = () => {
                 </div>
 
                     <div className="skills-container">
-                        <Skills Gauge="90%" Name="HTML and CSS"/>
-                        <Skills Gauge="75%" Name="JavaScript"/>
-                        <Skills Gauge="75%" Name="Bootstrap"/>
-                        <Skills Gauge="75%" Name="Nodejs"/>
-                        <Skills Gauge="75%" Name="NoSql"/>
-                        <Skills Gauge="75%" Name="Reactjs"/>
-                        <Skills Gauge="75%" Name="Adobe Suites"/>
+                        <Skills 
+                            Gauge="85%" 
+                            Name="HTML and CSS" 
+                            ClassName="html" 
+                            Image={HTMLCSS} />
+                        <Skills 
+                            Gauge="75%" 
+                            Name="JavaScript" 
+                            ClassName="javascript"
+                            Image={HTMLCSS} />
+
+                        <Skills 
+                            Gauge="65%" 
+                            Name="Bootstrap" 
+                            ClassName="bootstrap"/>
+
+                        <Skills 
+                            Gauge="75%" 
+                            Name="Nodejs" 
+                            ClassName="nodejs"/>
+
+                        <Skills 
+                            Gauge="55%" 
+                            Name="NoSql" 
+                            ClassName="nosql"/>
+
+                        <Skills 
+                            Gauge="70%" 
+                            Name="Reactjs" 
+                            ClassName="reactjs"/>
+
+                        <Skills 
+                            Gauge="75%" 
+                            Name="Adobe Suite" 
+                            ClassName="adobe"/>
                     </div>
         </div>
     )

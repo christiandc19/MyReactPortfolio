@@ -5,6 +5,10 @@
     justify-content: center;  
 }
 
+.skills img {
+    width: 55%;
+}
+
 .bar-container {
     height: 5px;
     width: 130px;
@@ -20,19 +24,87 @@
     margin-top: 50px;
 }
 
-.bar-container .progress-bar-skills {
+.bar-container .html,
+.bar-container .javascript,
+.bar-container .bootstrap,
+.bar-container .nodejs,
+.bar-container .nosql,
+.bar-container .reactjs,
+.bar-container .adobe {
     position: absolute;
     height: 100%;
     margin-right: 10px;
     background-color: rgb(85, 182, 85);
     border-radius: 7px;
-    -webkit-animation: progress-annimation 3s forwards;
-            animation: progress-annimation 3s forwards;
 }
 
+.html {
+    -webkit-animation: progress-html 3s forwards;
+            animation: progress-html 3s forwards;
+}
 
-@keyframes progress-annimation {
+@keyframes progress-html {
     from {width:0px;}
-  to {width:85px;}
+    to {width:85%;}
 }
 
+.javascript {
+    -webkit-animation: progress-javascript 3s forwards;
+            animation: progress-javascript 3s forwards;
+}
+
+@keyframes progress-javascript {
+    from {width:0px;}
+    to {width:75%;}
+}
+
+.bootstrap {
+    -webkit-animation: progress-bootstrap 3s forwards;
+            animation: progress-bootstrap 3s forwards;
+}
+
+@keyframes progress-bootstrap {
+    from {width:0px;}
+    to {width:65%;}
+}
+
+.nodejs {
+    -webkit-animation: progress-nodejs 3s forwards;
+            animation: progress-nodejs 3s forwards;
+}
+
+@keyframes progress-nodejs {
+    from {width:0px;}
+    to {width:75%;}
+}
+
+.nosql {
+    -webkit-animation: progress-nosql 3s forwards;
+            animation: progress-nosql 3s forwards;
+}
+
+@keyframes progress-nosql {
+    from {width:0px;}
+    to {width:55%;}
+}
+
+.reactjs {
+    -webkit-animation: progress-reactjs 3s forwards;
+            animation: progress-reactjs 3s forwards;
+}
+
+@keyframes progress-reactjs {
+    from {width:0px;}
+    to {width:70%;}
+}
+
+
+.adobe {
+    -webkit-animation: progress-adobe 3s forwards;
+            animation: progress-adobe 3s forwards;
+}
+
+@keyframes progress-adobe {
+    from {width:0px;}
+    to {width:70%;}
+}

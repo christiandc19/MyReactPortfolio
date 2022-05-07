@@ -2,15 +2,17 @@
     margin: 3rem;
     height: 420px;
     width: 400px;
-    border: 1px solid white;
+    border: 1px solid #4db5ff;
     border-radius: 10px;
 }
 
 .card-main img {
     height: 200px;
-    width: 400px;
+    width: 380px;
+    padding-left: 1rem;
     margin-bottom: 1rem;
 }
+
 
 .portfolio-container {
     display: flex;

@@ -8,15 +8,18 @@ const Skills = (props) => {
         <section className="skills">
                 <div className="html-css">
                     <h3>{props.Gauge}</h3>
-                        <div class="bar-container progress-bar-skills">
-                        <div class="progress-bar-skills"></div>
-                </div>
+                        <div class="bar-container">
+                        <div class={props.ClassName}></div>
+                
                     <p>{props.Name}</p>
-                </div>
+                <img src= {props.Image}  alt="" /> 
+               </div>
+            </div>
         </section>
     </>
         
     )
 }
+
 
 export default Skills
