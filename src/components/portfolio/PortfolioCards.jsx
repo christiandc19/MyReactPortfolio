@@ -1,6 +1,5 @@
 import React from "react";
 import './portfolio.css'
-import KIT from '../../assets/KIT.png'
 
 const PortfolioCards = (props) => {
     return (

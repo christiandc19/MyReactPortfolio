@@ -1,13 +1,35 @@
-.skills-container {
-    display: flex;
-    justify-content: center;    
-}
 
 .bio {
+    text-align: center;
     padding: 2rem 5rem;
     overflow: hidden;
 }
 
 .quote {
-    margin: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.about-image {
+    /* width: 10%; */
+    height: 70vh;
+    border-right: .5px solid white;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+}
+
+.about-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    text-align: center;
 }

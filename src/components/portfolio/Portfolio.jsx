@@ -11,7 +11,7 @@ import NOTE_TAKER from '../../assets/NOTE_TAKER.png'
 
 const Portfolio = () => {
     return (
-        <div className="container header__container">
+        <div className="header__container">
             <h1>Portfolio</h1>
             <p>WORK IN PROGRESS...</p>
             <div className="portfolio-container">

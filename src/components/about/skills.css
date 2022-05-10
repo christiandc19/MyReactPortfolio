@@ -2,11 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    justify-content: center;  
+    justify-content: center; 
 }
 
 .skills img {
     width: 55%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+
 }
 
 .bar-container {
