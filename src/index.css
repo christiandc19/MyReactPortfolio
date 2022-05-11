@@ -105,14 +105,14 @@ img {
 
 /* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
     section {
         margin-top: 6rem;
     }
-}
+} */
 
 /* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
 

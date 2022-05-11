@@ -36,7 +36,6 @@
     flex-wrap: wrap;
     text-align: center;
     gap: 3rem;
-
 }
 
 .intro_flex_items {
@@ -112,7 +111,55 @@ animation: float 3s ease-in-out infinite;
 	}
 }
 
+/* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    .intro_flex_items {
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .intro__container {
+        margin-top: 2rem;
+        gap: 1rem;
+    
+    }
+}
 
 
+/* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
+
+@media screen and (min-width: 800px) {
+
+    /* gap between main image and NavBar */
+    .intro__container {
+        margin-top: 2rem;
+    }
+
+    /* gap between main image and "Hello I'm" text */
+    .intro_flex_items {
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+  }
+
+
+/* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
+
+@media screen and (max-width: 1024px) {
+    
+    /* gap between main image and NavBar */
+    .container {
+        width: var(--container-width-md);
+    }
+    
+    /* gap between main image and "Hello I'm" text */
+    .intro__container {
+        margin-top: 2rem;
+    }
+}
 
 

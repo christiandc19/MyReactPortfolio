@@ -13,7 +13,7 @@ const Header = () => {
             <div class="bg bg3"></div>
 
             <section className="intro__container">
-                <div className="me intro-flex2">
+                <div className="me">
                     <img src= {ME}  alt="" />
                 </div>
 
