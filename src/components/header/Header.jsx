@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="intro_flex_items logo">
                     <p>Hello I'm</p>
                     <div><img src= {ChrisLogo} alt='logo'/>
-                    <h5 className="text-light">| Full Stack Developer  |  Artist  | </h5>
+                    <h5 className="text-light">Full Stack Developer  |  Artist   </h5>
                     </div>
 
                     <CTA />
