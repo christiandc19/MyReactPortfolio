@@ -1,6 +1,6 @@
-  # employee-tracker
+  # React Portfolio
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  ## This is the first project I creted using ReactJs. It's a React Porfolio that contains some of my projects and weekly challenges during the bootcamp. It's a work in progress...
+  ## This is the first project I creted using ReactJs. It's a React Porfolio that showcase some of my projects and weekly challenges during the bootcamp. This portfolio is still a work in progress...
   ------------------
   ## TECHNOLOGIES USED
   ### HTML
@@ -12,7 +12,7 @@
   ### Bootstrap
   ------------------
 ## SCREENSHOT
-![screenshot](../MyReactPortfolio/src/assets/screenshot.png)
+![screenshot](../../assets/screenshot.png)
 
   ------------------
   ## INSTALLATION
