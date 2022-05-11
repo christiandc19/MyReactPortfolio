@@ -10,3 +10,7 @@
 .navItems > ul > li> a {
     color: white;
 }
+
+.navItems > ul > li> a:hover {
+    color: black;
+}

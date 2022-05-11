@@ -4,7 +4,6 @@ import './skills.css'
 const Skills = (props) => {
     return (
         <>
-
         <section className="skills">
                 <div className="html-css">
                     <h3>{props.Gauge}</h3>

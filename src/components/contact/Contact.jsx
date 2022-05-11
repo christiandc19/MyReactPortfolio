@@ -20,8 +20,8 @@ const Contact = () => {
  };
 
     return (
-      <div className="container contact-container">
-        <div>
+      <div className="contact-container">
+        
           <form ref={form} onSubmit={sendEmail}>
             <h1>Contact Form</h1>
             <input className="user-input" type="text" name='name' placeholder='Your Full Name' required />
@@ -31,7 +31,6 @@ const Contact = () => {
             <button type='submit' className="btn-modal btn btn-primary">Send Message</button>
             </div>
           </form>
-        </div>
       </div>
     )
 }

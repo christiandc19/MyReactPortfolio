@@ -1,6 +1,9 @@
 import React from "react";
 import './about.css'
 import Skills from './Skills'
+import  meAbout from '../../assets/me_about.png'
+
+// import meAbout from '../../assets/me-about.png'
 // import HTMLCSS from '../../assets/HTMLCSS.png'
 // import Javascript from '../../assets/javascript_logo.png'
 
@@ -10,12 +13,15 @@ const About = () => {
     return (
         <div className="container about-container">
 
-            <div className="primary-title">
+            <div className="primary-title ">
                 <h1>About</h1>
-                <p className="quote"> "You can, you should, and if you're brave enough to start, you will." - Stephen King </p>
-                <p className="bio"> My name is Chris, I’m a Web Developer/Artist, Currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
-            </div>
 
+                    <img className="me-about container" src={meAbout}  alt="" />
+
+                    <p className="bio"> My name is Chris, I’m a Web Developer/Artist, Currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
+                <h1>Skills</h1>
+
+            </div>
             <div className="about-skills-container">
                 <Skills
                     Gauge="85%"
@@ -55,6 +61,8 @@ const About = () => {
                     Name="Photoshop"
                     ClassName="adobe" />
             </div>
+            <p className="quote"> "You can, you should, and if you're brave enough to start, you will." - Stephen King </p>
+
         </div>
     )
 }
