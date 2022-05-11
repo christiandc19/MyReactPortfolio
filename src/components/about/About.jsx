@@ -5,25 +5,27 @@ import  meAbout from '../../assets/me_about.png'
 
 const About = () => {
     return (
-        <div className="container about-container">
-
-            <div className="primary-title ">
+            <>
+            <div class="bg-about"></div>
+            <div className="primary-title">
                 <h1>About</h1>
-
-                    <img className="me-about container" src={meAbout}  alt="" />
-
                     <p className="bio"> My name is Chris, I’m a Web Developer/Artist, Currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
-                <h1>Skills</h1>
 
+            {/* <div className="container me-about">
+            <img src={meAbout}  alt="" />
+            </div> */}
+
+                <h1>Skills</h1>
             </div>
-            <div className="about-skills-container">
+
+            <div className="container about-skills-container">
                 <Skills
                     Gauge="85%"
                     Name="HTML/CSS"
                     ClassName="html"
                 />
                 <Skills
-                    Gauge="75%"
+                    Gauge="50%"
                     Name="JavaScript"
                     ClassName="javascript"
                 />
@@ -34,7 +36,7 @@ const About = () => {
                     ClassName="bootstrap" />
 
                 <Skills
-                    Gauge="75%"
+                    Gauge="50%"
                     Name="Nodejs"
                     ClassName="nodejs" />
 
@@ -44,7 +46,7 @@ const About = () => {
                     ClassName="nosql" />
 
                 <Skills
-                    Gauge="70%"
+                    Gauge="60%"
                     Name="Reactjs"
                     ClassName="reactjs" />
 
@@ -54,8 +56,7 @@ const About = () => {
                     ClassName="adobe" />
             </div>
             <p className="quote"> "You can, you should, and if you're brave enough to start, you will." - Stephen King </p>
-
-        </div>
+            </>
     )
 }
 

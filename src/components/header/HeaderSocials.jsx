@@ -5,13 +5,18 @@ import { BsFacebook } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
 
 const HeaderSocials = () => {
-    return (
-    <div className="header__socials">
-        <a href="http://linkedIn.com" target='_blank'><BsLinkedin/></a>
-        <a href="http://github.com" target='_blank'><BsGithub/></a>
-        <a href="http://facebook.com" target='_blank'><BsFacebook/></a>
-        <a href="http://twitter.com" target='_blank'><BsTwitter/></a>
 
+    const style = { color: "white", fontSize: "1.5em" }
+
+    return (
+
+        
+
+    <div className="header__socials">
+        <a href="http://linkedIn.com" target='_blank' style={style}><BsLinkedin/></a>
+        <a href="http://github.com" target='_blank' style={style}><BsGithub/></a>
+        <a href="http://facebook.com" target='_blank' style={style}><BsFacebook/></a>
+        <a href="http://twitter.com" target='_blank' style={style}><BsTwitter/></a>
     </div>
     )
 }

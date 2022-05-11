@@ -61,7 +61,7 @@
 
 @keyframes progress-javascript {
     from {width:0px;}
-    to {width:75%;}
+    to {width:50%;}
 }
 
 .bootstrap {
@@ -81,7 +81,7 @@
 
 @keyframes progress-nodejs {
     from {width:0px;}
-    to {width:75%;}
+    to {width:50%;}
 }
 
 .nosql {
@@ -101,7 +101,7 @@
 
 @keyframes progress-reactjs {
     from {width:0px;}
-    to {width:70%;}
+    to {width:60%;}
 }
 
 

@@ -11,6 +11,9 @@ import NOTE_TAKER from '../../assets/NOTE_TAKER.png'
 
 const Portfolio = () => {
     return (
+        <>
+        <div class="bg-portfolio"></div>
+
         <div className="header__container">
             <h1>Portfolio</h1>
             <p>WORK IN PROGRESS...</p>
@@ -48,6 +51,7 @@ const Portfolio = () => {
             />
             </div>
         </div>
+        </>
     )
 }
 

@@ -29,13 +29,12 @@ const Header = () => {
                     <div className="intro_quote">
                     "You can, you should, and if you're brave enough to start, you will." <br/> - Stephen King
                     </div>
+                    <div className="header__socials">
+                    <HeaderSocials />
+                    </div>
                 </div>
 
 
-                <div className="intro_flex_items">
-                <HeaderSocials />
-
-                </div>
 
 
             </section>

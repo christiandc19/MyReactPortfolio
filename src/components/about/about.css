@@ -3,22 +3,26 @@
     text-align: center;
     padding: 2rem 5rem;
     overflow: hidden;
+    color: white;
 }
 
 .quote {
     text-align: center;
     margin: 1rem;
+    color: white;
 }
 
-.about-image {
-    /* width: 10%; */
-    height: 70vh;
-    border-right: .5px solid white;
-}
+/* .me-about {
+    width: 10rem;
+    border-right: .5px solid;
+    border-radius: 15rem 15rem 15rem 35rem;
+} */
 
-.about-text {
+/* .about-text {
     text-align: center;
-}
+    color: white;
+} */
+
 
 .about-container {
     display: flex;
@@ -32,18 +36,25 @@
     flex-wrap: wrap;
     margin-bottom: 2rem;
     text-align: center;
-}
-
-.me-about {
-    margin-top: 2rem;
     justify-content: center;
-    height: 15rem;
-    width: 10rem;
-    background: linear-gradient(#4db5ff, 10%, #247291, transparent);
-/* width: 32rem; */
-border-radius: 15rem 15rem 15rem 35rem;
 }
 
-.javascript {
-    width: 50px;
+.about-skills-container > img {
+    width: 5rem;
+    height: 3rem;
+    margin-top: 2rem;
+    /* background-image: linear-gradient(-60deg, var(--color-bg-variant) 50%, #09f 50%); */
+    /* border-radius: 15rem 15rem 15rem 35rem; */
 }
+
+.bg-about {
+    background-image: linear-gradient(-60deg, #1e26afab 50%, #1db8dfa6 50%);
+    bottom:0;
+    left:-50%;
+    opacity: 1;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+

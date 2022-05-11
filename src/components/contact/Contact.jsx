@@ -20,7 +20,10 @@ const Contact = () => {
  };
 
     return (
-      <div className="contact-container">
+      <>
+      <div class="bg-contact"></div>
+
+      <div className="container contact-container">
         
           <form ref={form} onSubmit={sendEmail}>
             <h1>Contact Form</h1>
@@ -32,6 +35,7 @@ const Contact = () => {
             </div>
           </form>
       </div>
+      </>
     )
 }
 
