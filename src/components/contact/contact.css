@@ -5,13 +5,13 @@
 }
 
 .user-input {
-    width: 30rem;
+    width: 25rem;
     height: 2rem;
     margin: 2rem;
     display: block;
     padding: 1rem;
-    border: 2px solid blue;
-    border-radius: 1rem;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 0.5rem;
 }
 
 .email-input {

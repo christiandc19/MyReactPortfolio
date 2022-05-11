@@ -54,6 +54,12 @@
     color: white;
 }
 
+.follow p{
+    color: var(--color-primary);
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
 /* ======================= CTA ========================= */
 
 .cta {
@@ -68,7 +74,6 @@
 
 .header__socials {
     margin-top: 1rem;
-    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;

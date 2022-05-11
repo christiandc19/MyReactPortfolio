@@ -32,13 +32,12 @@ const Header = () => {
                     <div className="header__socials">
                     <HeaderSocials />
                     </div>
+                    <div className="follow">
+                    <p>Follow Me</p>
+                    </div>
                 </div>
 
-
-
-
             </section>
-
                 
         </header>    
 
