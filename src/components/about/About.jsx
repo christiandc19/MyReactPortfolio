@@ -9,7 +9,7 @@ const About = () => {
             <div class="bg-about"></div>
             <div className="primary-title">
                 <h1>About</h1>
-                    <p className="bio"> My name is Chris, I’m a Web Developer/Artist, Currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
+                    <p className="bio"> My name is Chris Carandang, I’m a Web Developer/Artist, currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
 
             {/* <div className="container me-about">
             <img src={meAbout}  alt="" />
