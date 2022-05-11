@@ -3,12 +3,6 @@ import './about.css'
 import Skills from './Skills'
 import  meAbout from '../../assets/me_about.png'
 
-// import meAbout from '../../assets/me-about.png'
-// import HTMLCSS from '../../assets/HTMLCSS.png'
-// import Javascript from '../../assets/javascript_logo.png'
-
-
-
 const About = () => {
     return (
         <div className="container about-container">
@@ -27,13 +21,11 @@ const About = () => {
                     Gauge="85%"
                     Name="HTML/CSS"
                     ClassName="html"
-                // Image={HTMLCSS} 
                 />
                 <Skills
                     Gauge="75%"
                     Name="JavaScript"
                     ClassName="javascript"
-                // Image={Javascript} 
                 />
 
                 <Skills
