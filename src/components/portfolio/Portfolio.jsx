@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div class="bg-portfolio"></div>
 
         <div className="header__container">
-            <h1>Portfolio</h1>
+            <h1>PROJECTS</h1>
             <p>WORK IN PROGRESS...</p>
             <div className="portfolio-container">
             <PortfolioCards 

@@ -23,7 +23,7 @@ function Nav({ currentPage, handlePageChange }) {
 
        <li>
         <a href="#portfolio" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+          className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}>Projects</a>
       </li>
         <li>
        <a href="#contact" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Contact')}
