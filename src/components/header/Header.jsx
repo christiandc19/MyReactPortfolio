@@ -8,6 +8,10 @@ const Header = () => {
     return (
             
         <header>
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+
             <section className="intro__container">
                 <div className="me intro-flex2">
                     <img src= {ME}  alt="" />

@@ -11,16 +11,11 @@
  }
 
 
-.header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
-}
-
 .header__container {
     text-align: center;
     height: 100;
     position: relative;
+
 }
 
 .logo {
@@ -37,6 +32,7 @@
     flex-wrap: wrap;
     text-align: center;
     gap: 3rem;
+
 }
 
 .intro_flex_items {
@@ -85,7 +81,6 @@ section > h5 {
     align-items: center;
     position: absolute;
     gap: 0.8rem;
-    
 }
 
 .header__socials::after {
@@ -120,3 +115,8 @@ animation: float 3s ease-in-out infinite;
 		transform: translatey(0px);
 	}
 }
+
+
+
+
+

@@ -1,0 +1,27 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-input {
+    width: 30rem;
+    height: 2rem;
+    margin: 2rem;
+    display: block;
+    padding: 1rem;
+    border: 2px solid blue;
+    border-radius: 1rem;
+}
+
+.email-input {
+    height: 15rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.submit-btn {
+    text-align: center;
+}

@@ -6,3 +6,7 @@
     gap: 3rem;
     margin-top: 2rem;
 }
+
+.navItems > ul > li> a {
+    color: white;
+}

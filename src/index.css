@@ -38,10 +38,13 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /* background: linear-gradient(-80deg, #247291 30%, #4db5ff 70%); */
     color: var(--color-white);
     line-height: 1.7;
+    /* background: linear-gradient(#4db5ff, 10%, #247291, transparent); */
+
     background-image: url(/src/assets/blue_textured.jpg);
+    /* background-image: linear-gradient(-60deg, #247291 50%, #4db5ff 50%); */
 }
 
 /* ==================== GENERAL STYLING ======================= */
@@ -132,3 +135,37 @@ img {
         margin-bottom: 2rem;
     }
 }
+
+/* ==================================== HOME BG EFFECT ==========================================  */
+
+
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, var(--color-bg-variant) 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+    
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
