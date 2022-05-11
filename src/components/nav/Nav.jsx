@@ -13,20 +13,20 @@ function Nav({ currentPage, handlePageChange }) {
     <div class="collapse navbar-collapse nav-items" id="navbarNav">
       <ul class="navbar-nav">
        <li>
-         <a href="#home" onClick={() => handlePageChange('Home')}
+         <a href="#home" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Home')}
            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
        </li>
        <li>
-         <a href="#about" onClick={() => handlePageChange('About')}
+         <a href="#about" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('About')}
            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
       </li>
 
        <li>
-        <a href="#portfolio" onClick={() => handlePageChange('Portfolio')}
+        <a href="#portfolio" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
       </li>
         <li>
-       <a href="#contact" onClick={() => handlePageChange('Contact')}
+       <a href="#contact" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Contact')}
          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
      </li>
       </ul>
