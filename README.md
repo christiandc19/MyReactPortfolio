@@ -12,7 +12,7 @@
   ### Bootstrap
   ------------------
 ## SCREENSHOT
-![screenshot](../../assets/screenshot.png)
+![screenshot](../../assets/images/screenshot.png)
 
   ------------------
   ## INSTALLATION
