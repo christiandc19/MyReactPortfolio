@@ -13,10 +13,10 @@ const HeaderSocials = () => {
         
 
     <div className="header__socials">
-        <a href="http://linkedIn.com" target='_blank' style={style}><BsLinkedin/></a>
-        <a href="http://github.com" target='_blank' style={style}><BsGithub/></a>
-        <a href="http://facebook.com" target='_blank' style={style}><BsFacebook/></a>
-        <a href="http://twitter.com" target='_blank' style={style}><BsTwitter/></a>
+        <a href="https://www.linkedin.com/in/chris-carandang/" target='_blank' style={style}><BsLinkedin/></a>
+        <a href="https://github.com/christiandc19" target='_blank' style={style}><BsGithub/></a>
+        <a href="https://www.facebook.com/chrisvisits/" target='_blank' style={style}><BsFacebook/></a>
+        <a href="https://twitter.com/christiandc19" target='_blank' style={style}><BsTwitter/></a>
     </div>
     )
 }
