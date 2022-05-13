@@ -1,13 +1,22 @@
-import React, {useRef} from "react";
+import React, {useRef, useState} from "react";
 import './contact.css'
 import emailjs from 'emailjs-com'
+import HeaderSocials from "../header/HeaderSocials";
 
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-   e.preventDefault();
+    e.preventDefault();
+
+// Popup message after send button is clicked
+    const feedbackEl = document.querySelector(".feedback");
+    feedbackEl.setAttribute("class", "feedback");
+  setTimeout(function() {
+    feedbackEl.setAttribute("class", "feedback hide");
+  }, 4000);
+
 
                   //    Service Id        Template Id                 Public Key (Account Tab) 
    emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'jysvNywN0d2HeSXN1')
@@ -33,9 +42,24 @@ const Contact = () => {
             <textarea className="user-input email-input" name="message" rows="4" placeholder="Message" required ></textarea>
             <div className="submit-btn">
             <button type='submit' className="btn-modal btn btn-primary">Send</button>
+            
             </div>
+            <div className="feedback hide"><h1>Your Email was sent!!!</h1></div>
           </form>
       </div>
+
+
+      <div className="portfolio-quote">
+                    "“Great web design without functionality is like a sports car with no engine.”
+– Paul Cookson
+                    </div>
+                    <div>
+                    <HeaderSocials />
+                    </div>
+                    <div className="follow">
+                    <p>Follow Me</p>
+                    </div>
+
       </>
     )
 }

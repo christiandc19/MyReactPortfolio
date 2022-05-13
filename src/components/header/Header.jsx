@@ -28,8 +28,8 @@ const Header = () => {
                     <CTA />
                 
                     <div className="intro_quote">
-                    "You can, you should, and if you're brave enough to start, you will." <br/> - Stephen King
-                    </div>
+                    “Design doesn’t mean that every person [is] gonna like, love it, but that’s the creativity of [an] eye which creates something different.”
+– Bijay Chhetri                    </div>
                     <div className="header__socials">
                     <HeaderSocials />
                     </div>

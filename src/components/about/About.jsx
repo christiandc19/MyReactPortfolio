@@ -2,6 +2,7 @@ import React from "react";
 import './about.css'
 import Skills from './Skills'
 import  meAbout from '../../assets/me_about.png'
+import HeaderSocials from "../header/HeaderSocials";
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
                     <p className="bio"> My name is Chris Carandang, I’m a Web Developer/Artist, currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
 
             <div className="me-about">
-            <img src={meAbout}  alt="" />
+            {/* <img src={meAbout}  alt="" /> */}
             </div>
 
             </div>
@@ -55,7 +56,13 @@ const About = () => {
                     Name="Photoshop"
                     ClassName="adobe" />
             </div>
-            <p className="quote"> "You can, you should, and if you're brave enough to start, you will." - Stephen King </p>
+            <p className="quote"> "“Website without visitors is like a ship lost in the horizon.” ― Dr. Christopher Dayagdag</p>
+            <div>
+            <HeaderSocials />
+                    </div>
+                    <div className="follow">
+                    <p>Follow Me</p>
+                    </div>
             </>
     )
 }

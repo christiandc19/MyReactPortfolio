@@ -1,5 +1,6 @@
 import React from "react";
 import './portfolio.css'
+import HeaderSocials from "../header/HeaderSocials";
 import PortfolioCards from './PortfolioCards'
 import KIT from '../../assets/KIT.png'
 import FOREstCAST from '../../assets/FOREstCAST.png'
@@ -50,7 +51,19 @@ const Portfolio = () => {
                 url="https://nameless-falls-11259.herokuapp.com/"    
             />
             </div>
+            <div className="portfolio-quote">
+                    "“Great web design without functionality is like a sports car with no engine.”
+– Paul Cookson
+                    </div>
+                    <div>
+                    <HeaderSocials />
+                    </div>
+                    <div className="follow">
+                    <p>Follow Me</p>
+                    </div>
+
         </div>
+
         </>
     )
 }
