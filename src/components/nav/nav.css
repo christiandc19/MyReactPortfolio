@@ -1,17 +1,19 @@
 
 
 ul > li> a {
+    text-align: center;
     color: white;
     font-size: 1.3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
-    font-weight:bolder;
     margin-left: 3rem;
-}
+    border-radius: 10px;
+    background: linear-gradient(#4db5ff, 10%, #247291, transparent);
+    width: 6rem;
+    
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 
-ul > li> a:hover {
-    color: black;
 }
-
 .nav-items {
 justify-content: center;
 }

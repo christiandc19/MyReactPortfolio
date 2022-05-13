@@ -13,6 +13,7 @@ const Header = () => {
             <div class="bg bg3"></div>
 
             <section className="intro__container">
+
                 <div className="me">
                     <img src= {ME}  alt="" />
                 </div>
@@ -22,7 +23,7 @@ const Header = () => {
                     <p>Hello I'm</p>
                     <div><img src= {ChrisLogo} alt='logo'/>
                     <h5 className="text-light">Full Stack Developer  |  Artist   </h5>
-                    </div>
+                </div>
 
                     <CTA />
                 

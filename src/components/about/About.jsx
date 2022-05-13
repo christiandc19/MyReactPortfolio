@@ -7,16 +7,16 @@ const About = () => {
     return (
             <>
             <div class="bg-about"></div>
-            <div className="primary-title">
+            <div className="primary-title about-container">
                 <h1>ABOUT</h1>
                     <p className="bio"> My name is Chris Carandang, I’m a Web Developer/Artist, currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
 
-            {/* <div className="container me-about">
+            <div className="me-about">
             <img src={meAbout}  alt="" />
-            </div> */}
-
-                <h1>SKILLS</h1>
             </div>
+
+            </div>
+            <h1>SKILLS</h1>
 
             <div className="container about-skills-container">
                 <Skills

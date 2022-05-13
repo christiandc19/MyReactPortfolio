@@ -9,6 +9,7 @@ const Contact = () => {
   const sendEmail = (e) => {
    e.preventDefault();
 
+                  //    Service Id        Template Id                 Public Key (Account Tab) 
    emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'jysvNywN0d2HeSXN1')
      .then((result) => {
          console.log(result.text);
