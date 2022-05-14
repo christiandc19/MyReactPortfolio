@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="header__container">
             <h1>PROJECTS</h1>
             <p>WORK IN PROGRESS...</p>
-            
+
             <div className="portfolio-container">
             <PortfolioCards 
                 Image={KIT} 
@@ -38,7 +38,7 @@ const Portfolio = () => {
             />
             <PortfolioCards Image={WORKDAY_SCHEDULER}
                 ProjectName="WORKDAY SCHEDULER" 
-                Description="A calendar App that allows a user to save events for each hour of the day. The app will run in the browser. Feature dynamically updated HTML."
+                Description="This App allows user to save events for each hour of the day. The app will run in the browser. Feature dynamically updated HTML."
                 url="https://christiandc19.github.io/work-day-scheduler-challenge/"    
             />
             <PortfolioCards Image={RUNBUDDY}
