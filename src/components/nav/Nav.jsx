@@ -13,20 +13,20 @@ function Nav({ currentPage, handlePageChange }) {
     <div class="collapse navbar-collapse nav-items" id="navbarNav">
       <ul class="navbar-nav">
        <li>
-         <a href="#home" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Home')}
+         <a href="#home" data-bs-toggle="collapse" data-bs-target="#home #navbarNav" onClick={() => handlePageChange('Home')}
            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>HOME</a>
        </li>
        <li>
-         <a href="#about" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('About')}
+         <a href="#about" data-bs-toggle="collapse" data-bs-target="#about #navbarNav" onClick={() => handlePageChange('About')}
            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>ABOUT</a>
       </li>
 
        <li>
-        <a href="#portfolio" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Portfolio')}
+        <a href="#portfolio" data-bs-target="#navbarNav" onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}>PROJECTS</a>
       </li>
         <li>
-       <a href="#contact" data-bs-toggle="collapse" data-bs-target="#navbarNav" onClick={() => handlePageChange('Contact')}
+       <a href="#contact" data-bs-toggle="collapse" data-bs-target="#contact" onClick={() => handlePageChange('Contact')}
          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>CONTACT</a>
      </li>
       </ul>

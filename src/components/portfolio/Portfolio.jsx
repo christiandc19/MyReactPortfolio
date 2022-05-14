@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import './portfolio.css'
 import HeaderSocials from "../header/HeaderSocials";
 import PortfolioCards from './PortfolioCards'
@@ -14,7 +15,7 @@ const Portfolio = () => {
     return (
         <>
         <div class="bg-portfolio"></div>
-
+        <Fade>
         <div className="header__container">
             <h1>PROJECTS</h1>
             <p>WORK IN PROGRESS...</p>
@@ -64,7 +65,7 @@ const Portfolio = () => {
                     </div>
 
         </div>
-
+        </Fade>
         </>
     )
 }

@@ -1,23 +1,26 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
+
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import ChrisLogo from '../../assets/chris_logo.png'
 import HeaderSocials from './HeaderSocials';
+
 const Header = () => {
     return (
-            
+    
         <header>
-            <div class="bg"></div>
+             <div class="bg"></div>
             <div class="bg bg2"></div>
-            <div class="bg bg3"></div>
-
+            <div class="bg bg3"></div> 
+            <Fade>
             <section className="intro__container">
-
+            
                 <div className="me">
                     <img src= {ME}  alt="" />
                 </div>
-
+            
 
                 <div className="intro_flex_items logo">
                     <p>Hello I'm</p>
@@ -37,11 +40,11 @@ const Header = () => {
                     <p>Follow Me</p>
                     </div>
                 </div>
-
+             
             </section>
-                
+            </Fade>
         </header>    
-
+       
     )
 }
 

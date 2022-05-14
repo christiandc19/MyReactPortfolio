@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
-import './contact.css'
+import './contact.css';
+import { Fade } from "react-awesome-reveal";
 import myAvatar from '../../assets/myAvatar.png'
 import emailjs from 'emailjs-com'
 import HeaderSocials from "../header/HeaderSocials";
@@ -33,7 +34,7 @@ const Contact = () => {
     return (
       <>
       <div class="bg-contact"></div>
-
+        <Fade>
       <div className="container contact-container">
         
           <form ref={form} onSubmit={sendEmail}>
@@ -63,7 +64,7 @@ const Contact = () => {
                     <div className="follow">
                     <p>Follow Me</p>
                     </div>
-
+          </Fade>
       </>
     )
 }
