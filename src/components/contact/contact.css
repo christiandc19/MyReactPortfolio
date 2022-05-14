@@ -41,6 +41,8 @@ h1 {
   /*  =============================== MODAL ======================================== */
 
 .hide {
-    display: none;
+    /* display: none; */
+    margin-bottom: 2rem;
+    color: white;
 }
 

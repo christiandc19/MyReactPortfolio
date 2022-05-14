@@ -1,7 +1,6 @@
 import React from "react";
 import './about.css'
 import Skills from './Skills'
-import  meAbout from '../../assets/me_about.png'
 import HeaderSocials from "../header/HeaderSocials";
 
 const About = () => {
@@ -10,11 +9,7 @@ const About = () => {
             <div class="bg-about"></div>
             <div className="primary-title about-container">
                 <h1>ABOUT</h1>
-                    <p className="bio"> My name is Chris Carandang, I’m a Web Developer/Artist, currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. </p>
-
-            <div className="me-about">
-            {/* <img src={meAbout}  alt="" /> */}
-            </div>
+                    <p className="bio"> My name is Chris Carandang, I’m a Web Developer/Artist, currently living in Los Angeles California. Aside from web development, I enjoy spending my time with nature, outdoor activities, travelling, camps, photography and beer. I am a current Full Stack Web Development student at the University of California – Los Angeles Extension and the program will run until June 01, 2022. During the coding bootcamp, I developed numerous skills and it shaped my coding and web development knowledge. I have the HTML, CSS and JavaScript skills as a foundation </p>
 
             </div>
             <h1>SKILLS</h1>

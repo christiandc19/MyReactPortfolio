@@ -41,8 +41,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     line-height: 1.7;
-        /* background-image: linear-gradient(-60deg, var(--color-bg-variant) 50%, #09f 50%); */
-    /* background-image: linear-gradient(-30deg, #247291 40%, #22559c 60%); */
 }
 
 /* ==================== GENERAL STYLING ======================= */
@@ -103,16 +101,6 @@ img {
     object-fit: cover;
 }
 
-/* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
-
-/* @media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-    section {
-        margin-top: 6rem;
-    }
-} */
 
 /* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
 

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyReactPortfolio/static/css/main.4caf9ef7.css",
-    "main.js": "/MyReactPortfolio/static/js/main.52887264.js",
+    "main.css": "/MyReactPortfolio/static/css/main.b350dd0d.css",
+    "main.js": "/MyReactPortfolio/static/js/main.83f4ba6f.js",
     "static/media/FOREstCAST.png": "/MyReactPortfolio/static/media/FOREstCAST.913c147281dcd9d56d79.png",
     "static/media/RUNBUDDY.png": "/MyReactPortfolio/static/media/RUNBUDDY.89b603809be5979796ff.png",
     "static/media/me.png": "/MyReactPortfolio/static/media/me.dabe8f3e6604f1f62d6c.png",
-    "static/media/me_about.png": "/MyReactPortfolio/static/media/me_about.fc9702d887a338beb72f.png",
     "static/media/KIT.png": "/MyReactPortfolio/static/media/KIT.afa8cec4d51016c297c0.png",
+    "static/media/me_about.png": "/MyReactPortfolio/static/media/me_about.757f61b81b2f7511b403.png",
     "static/media/WEATHER_APP.png": "/MyReactPortfolio/static/media/WEATHER_APP.9524e6092c0a47545503.png",
     "static/media/WORKDAY_SCHEDULER.png": "/MyReactPortfolio/static/media/WORKDAY_SCHEDULER.ec99acfec61293ca1b2d.png",
     "static/media/cv.pdf": "/MyReactPortfolio/static/media/cv.7b865f45741d21590dd2.pdf",
     "static/media/chris_logo.png": "/MyReactPortfolio/static/media/chris_logo.ac46c246624ecdcf364c.png",
     "static/media/NOTE_TAKER.png": "/MyReactPortfolio/static/media/NOTE_TAKER.efe2bc5dad7dbb372c83.png",
     "index.html": "/MyReactPortfolio/index.html",
-    "main.4caf9ef7.css.map": "/MyReactPortfolio/static/css/main.4caf9ef7.css.map",
-    "main.52887264.js.map": "/MyReactPortfolio/static/js/main.52887264.js.map"
+    "main.b350dd0d.css.map": "/MyReactPortfolio/static/css/main.b350dd0d.css.map",
+    "main.83f4ba6f.js.map": "/MyReactPortfolio/static/js/main.83f4ba6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4caf9ef7.css",
-    "static/js/main.52887264.js"
+    "static/css/main.b350dd0d.css",
+    "static/js/main.83f4ba6f.js"
   ]
 }
