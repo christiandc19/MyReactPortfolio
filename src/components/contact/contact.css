@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem;
 }
 
 .user-input {
-    width: 25rem;
+    width: 22rem;
     height: 2rem;
     margin: 2rem;
     display: block;
@@ -14,6 +15,12 @@
     border-radius: 0.5rem;
 }
 
+.contact-quote {
+    padding: 1rem;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
 .email-input {
     height: 15rem;
 }

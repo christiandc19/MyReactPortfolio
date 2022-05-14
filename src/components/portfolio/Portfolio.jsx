@@ -18,6 +18,7 @@ const Portfolio = () => {
         <div className="header__container">
             <h1>PROJECTS</h1>
             <p>WORK IN PROGRESS...</p>
+            
             <div className="portfolio-container">
             <PortfolioCards 
                 Image={KIT} 

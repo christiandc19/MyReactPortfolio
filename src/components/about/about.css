@@ -1,7 +1,11 @@
 
 .bio {
-    text-align: center;
-    padding: 2rem 5rem;
+    text-indent: 5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-right: 5rem;
     overflow: hidden;
     color: white;
 }
@@ -64,4 +68,14 @@
     text-align: center;
 }
 
+
+/* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
+
+@media screen and (max-width: 600px) {
+    .bio {
+        text-indent: 10%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
 

@@ -49,8 +49,8 @@ const Contact = () => {
       </div>
 
 
-      <div className="portfolio-quote">
-                    "“Great web design without functionality is like a sports car with no engine.”
+      <div className="contact-quote">
+                    “Great web design without functionality is like a sports car with no engine.”
 – Paul Cookson
                     </div>
                     <div>
