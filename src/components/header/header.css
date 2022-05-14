@@ -129,9 +129,9 @@ animation: float 3s ease-in-out infinite;
 }
 
 
-/* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
+/* ======================== MEDIA QUERIES FOR ipad Air ================================ */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 820px) {
 
     /* gap between main image and NavBar */
     .intro__container {
@@ -146,19 +146,25 @@ animation: float 3s ease-in-out infinite;
   }
 
 
-/* ======================== MEDIA QUERIES FOR MEDIUM DEVICES ================================ */
+/* ======================== MEDIA QUERIES FOR iPad Mini ================================ */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     
-    /* gap between main image and NavBar */
-    .container {
-        width: var(--container-width-md);
-    }
-    
-    /* gap between main image and "Hello I'm" text */
-    .intro__container {
-        margin-top: 2rem;
+    .intro_flex_items {
+        margin-top: 0;
     }
 }
 
+/* ======================== MEDIA QUERIES FOR iPhone 12 Pro ================================ */
+
+@media screen and (max-width: 390px) {
+    
+    .intro_quote {
+        text-align: center;
+        margin-top: 3rem;
+        font-style: italic;
+        color: white;
+    }
+
+}
 

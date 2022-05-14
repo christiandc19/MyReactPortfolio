@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import './contact.css'
+import myAvatar from '../../assets/myAvatar.png'
 import emailjs from 'emailjs-com'
 import HeaderSocials from "../header/HeaderSocials";
 
@@ -42,9 +43,12 @@ const Contact = () => {
             <textarea className="user-input email-input" name="message" rows="4" placeholder="Message" required ></textarea>
             <div className="submit-btn">
             <button type='submit' className="btn-modal btn btn-primary">Send</button>
-            
             </div>
-            <div className="feedback hide"><h1>Your Email was sent!!!</h1></div>
+            
+              <div className="feedback hide">
+              <img  src= {myAvatar} alt='avatar'/>
+              <h5>Message Sent! </h5>
+              </div>
           </form>
       </div>
 

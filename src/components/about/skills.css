@@ -5,10 +5,6 @@
     justify-content: center; 
 }
 
-.skills img {
-    width: 55%;
-}
-
 .skills-container {
     display: flex;
     flex-direction: row;
@@ -21,13 +17,17 @@
     margin-right: 10px;
     position: relative;
     background-color: gray;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     border-radius: 7px;
 }
 
 .primary-title h1 {
     text-align: center;
     margin-top: 50px;
+}
+
+.lang {
+    color: white;
 }
 
 .bar-container .html,
