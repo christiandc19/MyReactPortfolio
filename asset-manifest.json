@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyReactPortfolio/static/css/main.9b23555c.css",
-    "main.js": "/MyReactPortfolio/static/js/main.1b9e162e.js",
+    "main.js": "/MyReactPortfolio/static/js/main.30e68d57.js",
     "static/media/FOREstCAST.png": "/MyReactPortfolio/static/media/FOREstCAST.913c147281dcd9d56d79.png",
     "static/media/RUNBUDDY.png": "/MyReactPortfolio/static/media/RUNBUDDY.89b603809be5979796ff.png",
     "static/media/me.png": "/MyReactPortfolio/static/media/me.dabe8f3e6604f1f62d6c.png",
@@ -11,13 +11,14 @@
     "static/media/WORKDAY_SCHEDULER.png": "/MyReactPortfolio/static/media/WORKDAY_SCHEDULER.ec99acfec61293ca1b2d.png",
     "static/media/cv.pdf": "/MyReactPortfolio/static/media/cv.7b865f45741d21590dd2.pdf",
     "static/media/chris_logo.png": "/MyReactPortfolio/static/media/chris_logo.ac46c246624ecdcf364c.png",
+    "static/media/draw_the_line.png": "/MyReactPortfolio/static/media/draw_the_line.d9f5784df734b5f66c4d.png",
     "static/media/NOTE_TAKER.png": "/MyReactPortfolio/static/media/NOTE_TAKER.efe2bc5dad7dbb372c83.png",
     "index.html": "/MyReactPortfolio/index.html",
     "main.9b23555c.css.map": "/MyReactPortfolio/static/css/main.9b23555c.css.map",
-    "main.1b9e162e.js.map": "/MyReactPortfolio/static/js/main.1b9e162e.js.map"
+    "main.30e68d57.js.map": "/MyReactPortfolio/static/js/main.30e68d57.js.map"
   },
   "entrypoints": [
     "static/css/main.9b23555c.css",
-    "static/js/main.1b9e162e.js"
+    "static/js/main.30e68d57.js"
   ]
 }
