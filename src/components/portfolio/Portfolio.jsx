@@ -9,6 +9,7 @@ import WEATHER from '../../assets/WEATHER_APP.png'
 import WORKDAY_SCHEDULER from '../../assets/WORKDAY_SCHEDULER.png'
 import RUNBUDDY from '../../assets/RUNBUDDY.png'
 import NOTE_TAKER from '../../assets/NOTE_TAKER.png'
+import DRAW_THE_LINE from '../../assets/draw_the_line.png'
 
 
 
@@ -22,6 +23,13 @@ const Portfolio = () => {
             <p>WORK IN PROGRESS...</p>
 
             <div className="portfolio-container">
+            <PortfolioCards 
+                Image={DRAW_THE_LINE} 
+                ProjectName="DRAW THE LINE" 
+                Description="Draw the Line is a debate platform monitored and regulated by our community. We strive to bring forth a safe space for our members." 
+                url="https://draw-the-line-repo.herokuapp.com/"
+            />
+
             <PortfolioCards 
                 Image={KIT} 
                 ProjectName="KIT: Keep In Touch" 

@@ -30,7 +30,6 @@
 
 html {
     scroll-behavior: smooth;
-    
 }
 
 ::-webkit-scrollbar {
@@ -45,12 +44,12 @@ body {
 
 /* ==================== GENERAL STYLING ======================= */
 
-.container {
+/* .container {
     width: var(--container-width-lg);
     margin: 0, auto;
-}
+} */
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
     font-size: 2rem;
 }
 
@@ -63,7 +62,7 @@ section > h5 {
 section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
-}
+} */
 
 .text-light {
     color: var(--color-light);
@@ -90,10 +89,10 @@ a:hover {
 }
 
 
-.btn-primary {
+/* .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
-}
+} */
 
 img {
     display: block;
@@ -104,14 +103,14 @@ img {
 
 /* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
     section > h2 {
         margin-bottom: 2rem;
     }
-}
+} */
 
 /* ==================================== HOME BG EFFECT ==========================================  */
 
